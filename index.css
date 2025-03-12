@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Quicksand;
+}
+
+/*.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
+
+html, body {
+    overflow-x: hidden; /* Prevents horizontal scroll */
+    width: 100%;
+}
+
+#navbar {
+/*	background-color: rgb(255, 215, 150);*/
+	background-color: rgb(147, 112, 219);
+	font-weight: bold;
+}
+
+#hero-bg {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+				url(./images/hero-bg.jpg);
+/*	background-image: url(./images/hero-bg.jpg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70vh;
+	padding: 5vh;
+}
+
+
+#card-products {
+	background-color: rgb(229, 255, 244)
+}
